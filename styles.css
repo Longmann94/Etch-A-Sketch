@@ -1,0 +1,25 @@
+.flex-container {
+  display:grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.heading {
+  display: flex;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+.bottom-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.squares {
+  border: solid;
+  height: 23px;
+  width: 23px;
+}
